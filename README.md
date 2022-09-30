@@ -9,10 +9,16 @@ Alerts from the tools can be emailed and can also be sent to your SIEM in CEF fo
 1. Python packages:
    - requests==2.28.1
       ```
-      pip3 insgtall requests
+      pip3 install requests
       ```
    - tweepy==4.8.0
+      ```
+      pip3 install tweepy
+      ```
    - urlextract==1.6.0
+      ```
+      pip3 install urlextract
+      ```
 2. API keys:
    - Twitter bearer, consumer & access tokens with secrets (free elevated access or better is preferred)
    - VirusTotal API (free is fine)
