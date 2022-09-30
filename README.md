@@ -8,6 +8,9 @@ Alerts from the tools can be emailed and can also be sent to your SIEM in CEF fo
 ## Requirements
 1. Python packages:
    - requests==2.28.1
+      ```
+      pip3 insgtall requests
+      ```
    - tweepy==4.8.0
    - urlextract==1.6.0
 2. API keys:
