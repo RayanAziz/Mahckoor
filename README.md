@@ -11,16 +11,15 @@ Current:
    - Profile Picture
    - Bio
    - URL
-   - Location
+   - Location  
    With the ability to set a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
 3. Periodically fetch new tweets ana analyzed them.
-4. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.
+4. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
 Ideas for the future:
 1. Support for multiprocessing/async
 2. Utilize machine learning to identify anamoulous tweets
 3. Support for analyzing tweet replies to match against a blacklist
 4. Analyze text & content in tweeted media
-5. 
 ## Requirements
 1. Python packages:
    - requests==2.28.1
