@@ -13,16 +13,18 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
    - URL
    - Location  
 3. Periodically fetch new tweets ana analyzed them.
-4. Setting a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
-5. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
+4. Support for detecing custom blacklisted words.
+5. Setting a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
+6. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
 ### Features in mind:
 1. Detect absent or malformed config.ini.
 2. Log to a local file.
 3. Give options to ignore alerting on some monitors (e.g. don't alert for changes in the profile picture).
-4. Utilize machine/deep learning to detect anamoulous and malicious tweets.
-5. Support for analyzing tweet replies to match against a blacklist.
-6. Analyze text & content in tweeted media.
-7. Support for more TI & OSINT platforms.
+4. Support for matching against the blacklist regardless of character case.
+5. Utilize machine/deep learning to detect anamoulous and malicious tweets.
+6. Support for analyzing tweet replies to match against a blacklist.
+7. Analyze text & content in tweeted media.
+8. Support for more TI & OSINT platforms.
 9. Recode to support multiprocessing/async.
 ## Requirements
 1. Python packages:
