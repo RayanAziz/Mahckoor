@@ -1,10 +1,26 @@
 # Mahckoor
 #### A Twitter account takeover detector.
 ## Description
-It only needs any public API keys for Twitter and OSINT tools to work, then you supply it with Twitter usernames for the account you’d like to be monitored.  
-It monitors usual signs of takeovers, such as changes in the display name, profile picture, bio, etc.  
-It also monitors all tweets by the monitored accounts. It will thoroughly analyze the text looking for matches in a blacklist, or if the links tweeted have bad reputation after checking with online OSINT tools like VirusTotal.  
-Alerts from the tools can be emailed and can also be sent to your SIEM in CEF format via port 514 UDP.  
+Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets, and alerts via email & remote logging to SIEM upon detecting signs of account takeover.
+## Features
+Current:
+1. Support for multi-account monitoring
+2. Periodically monitoring changes in account properties:
+   - Username
+   - Display Name
+   - Profile Picture
+   - Bio
+   - URL
+   - Location
+   With the ability to set a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
+3. Periodically fetch new tweets ana analyzed them.
+4. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.
+Ideas for the future:
+1. Support for multiprocessing/async
+2. Utilize machine learning to identify anamoulous tweets
+3. Support for analyzing tweet replies to match against a blacklist
+4. Analyze text & content in tweeted media
+5. 
 ## Requirements
 1. Python packages:
    - requests==2.28.1
