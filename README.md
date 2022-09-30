@@ -8,13 +8,13 @@ Alerts from the tools can be emailed and can also be sent to your SIEM in CEF fo
 ## Requirements
 ## Usage
 1. config.ini has to be filled with information.
-  a. Required fields:
+  - Required fields:
     - [twitter accounts]
     - [twitter api]
     - [frequency]
-  b. Optional fields:
+  - Optional fields:
     - [virus total api]
     - [email]
     - [siem]
 2. Running the tool:
-  ```python main.py```
+```python main.py```
