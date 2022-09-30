@@ -46,11 +46,11 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
    - VirusTotal API (free is fine)
       - [How to get](https://support.virustotal.com/hc/en-us/articles/115002088769-Please-give-me-an-API-key)
 3. Filling out the config.ini file.
-   - Required fields:
+   - Required configs:
       - [twitter accounts]
       - [twitter api]
       - [frequency]
-   - Optional fields:
+   - Optional configs:
       - [virus total api]
       - [email]
       - [siem]
