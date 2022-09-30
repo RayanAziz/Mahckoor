@@ -17,12 +17,13 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
 5. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
 ### Features in mind:
 1. Detect absent or malformed config.ini.
-2. Support for multiprocessing/async.
+2. Log to a local file.
 3. Give options to ignore alerting on some monitors (e.g. don't alert for changes in the profile picture).
 4. Utilize machine/deep learning to detect anamoulous and malicious tweets.
 5. Support for analyzing tweet replies to match against a blacklist.
 6. Analyze text & content in tweeted media.
-7. Log to a local file.
+7. Support for more TI & OSINT platforms.
+9. Recode to support multiprocessing/async.
 ## Requirements
 1. Python packages:
    - requests==2.28.1
