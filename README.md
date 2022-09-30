@@ -6,6 +6,9 @@ It monitors usual signs of takeovers, such as changes in the display name, profi
 It also monitors all tweets by the monitored accounts. It will thoroughly analyze the text looking for matches in a blacklist, or if the links tweeted have bad reputation after checking with online OSINT tools like VirusTotal.
 Alerts from the tools can be emailed and can also be sent to your SIEM in CEF format via port 514 UDP.
 ## Requirements
+- requests==2.28.1
+- tweepy==4.8.0
+- urlextract==1.6.0
 ## Usage
 1. config.ini has to be filled with information.
    - Required fields:
