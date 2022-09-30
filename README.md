@@ -49,5 +49,5 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
       - [siem]
 ## Usage
    ```
-   python main.py
+   python mahckoor.py
    ```
