@@ -12,9 +12,9 @@ Current:
    - Bio
    - URL
    - Location  
-   With the ability to set a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
 3. Periodically fetch new tweets ana analyzed them.
-4. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
+4. Setting a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
+5. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
 Ideas for the future:
 1. Support for multiprocessing/async
 2. Utilize machine learning to identify anamoulous tweets
