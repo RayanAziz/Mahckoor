@@ -12,7 +12,7 @@ Alerts from the tools can be emailed and can also be sent to your SIEM in CEF fo
      - [twitter accounts]
      - [twitter api]
      - [frequency]
-  - Optional fields:
+   - Optional fields:
      - [virus total api]
      - [email]
      - [siem]
