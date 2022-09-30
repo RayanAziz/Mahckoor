@@ -1,7 +1,7 @@
 # Mahckoor
 #### A Twitter account takeover detector.
 ## Description
-Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets, and alerts via email & remote logging to SIEM upon detecting signs of account takeover.
+Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets. It alerts upon detecting changes or suspicious tweets via email & remote logging to SIEM.  
 ## Features
 ### Current:
 1. Support for multi-account monitoring.
