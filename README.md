@@ -18,7 +18,7 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
 6. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.
 7. Easy deployment and handles most user errors.  
 ### Features in mind:
-1. Detect absent or malformed config.ini.
+1. Detect malformed config.ini.
 2. Log to a local file.
 3. Give options to ignore alerting on some monitors (e.g. don't alert for changes in the profile picture).
 4. Support for matching against the blacklist regardless of character case.
