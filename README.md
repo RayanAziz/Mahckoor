@@ -15,7 +15,8 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
 3. Periodically fetch new tweets ana analyzed them.
 4. Support for detecing custom blacklisted words.
 5. Setting a custom frequency for the periodic check to avoid hitting API rate limits & quotas.
-6. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.  
+6. Sending alerts via email & remote logging to SIEM on UDP port 514 in CEF.
+7. Easy deployment and handles most user errors.  
 ### Features in mind:
 1. Detect absent or malformed config.ini.
 2. Log to a local file.
@@ -54,7 +55,7 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
       - [virus total api]
       - [email]
       - [siem]
-## Usage
+## Deployment
    ```
    python mahckoor.py
    ```
