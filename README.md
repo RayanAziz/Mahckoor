@@ -19,7 +19,7 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
 1. Detect absent or malformed config.ini.
 2. Support for multiprocessing/async.
 3. Give options to ignore alerting on some monitors (e.g. don't alert for changes in the profile picture).
-4. Utilize machine learning to identify anamoulous and malicious tweets.
+4. Utilize machine/deep learning to detect anamoulous and malicious tweets.
 5. Support for analyzing tweet replies to match against a blacklist.
 6. Analyze text & content in tweeted media.
 7. Log to local file.
