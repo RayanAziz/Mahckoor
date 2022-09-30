@@ -37,6 +37,7 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
       ```
 2. API keys:
    - Twitter bearer, consumer & access tokens with secrets (free elevated access or better is preferred)
+      - [How to get] (https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2)
    - VirusTotal API (free is fine)
 3. Filling the config.ini file.
    - Required fields:
