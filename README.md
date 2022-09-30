@@ -17,4 +17,4 @@ Alerts from the tools can be emailed and can also be sent to your SIEM in CEF fo
      - [email]
      - [siem]
 2. Running the tool:
-3. ```python main.py```
+```python main.py```
