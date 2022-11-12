@@ -1,4 +1,3 @@
-NOTE: WORKS ONLY ON PYTHON 3.10 and newer.
 # Mahckoor
 Twitter account hijacking detection and alerting.
 ## Description
@@ -31,20 +30,12 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
 8. Support for more TI & OSINT platforms (urlscan integration with nice features is upcoming).
 ## Requirements
 1. Python packages:
+   - colorama==0.4.6
    - requests==2.28.1
-      ```
-      pip3 install requests
-      ```
-   - tweepy==4.8.0
-      ```
-      pip3 install tweepy
-      ```
-   - urlextract==1.6.0
-      ```
-      pip3 install urlextract
-      ```
+   - tweepy==4.12.1
+   - urlextract==1.7.1
 2. API keys:
-   - Twitter bearer, consumer & access tokens with secrets (free elevated access or better is preferred)
+   - Twitter bearer token (any access is fine)
       - [How to get](https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2)
    - VirusTotal API (free is fine)
       - [How to get](https://support.virustotal.com/hc/en-us/articles/115002088769-Please-give-me-an-API-key)
@@ -52,9 +43,8 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
    - Required configs:
       - [twitter accounts]
       - [twitter api]
-      - [frequency]
    - Optional configs:
-      - [virus total api]
+      - [virustotal api]
       - [email]
       - [siem]
 ## Deployment
