@@ -51,3 +51,4 @@ Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets
    ```
    python mahckoor.py
    ```
+Logo asset owned by [rexcanor](https://www.vecteezy.com/members/rexcanor).
