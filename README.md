@@ -1,9 +1,9 @@
 # Mahckoor
 Twitter account hijacking detection and alerting tool.
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/media/mahckoor.png">
-  <source media="(prefers-color-scheme: light)" srcset="/media/mahckoor.png">
-  <img alt="Logo" src="/media/mahckoor.png">
+  <source media="(prefers-color-scheme: dark)" srcset="/media/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/media/logo-white.png">
+  <img alt="Logo" src="/media/mahckoor-white.png">
 </picture>
 
 ## Overview
