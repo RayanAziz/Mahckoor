@@ -1,7 +1,9 @@
 # Mahckoor
-Twitter account hijacking detection and alerting.
+Twitter account hijacking detection and alerting tool.
 ## Description
 Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets. It alerts upon detecting changes on the profile or when suspicious tweets are tweeted. Alerts are sent via email & remote logging to SIEM (so far).
+## Use Case
+Automatic monitoring for organaization Twitter accounts to expediate incident response and to fulfill regulation requirements.
 ## Features
 ### Current features:
 1. Support for monitroing up to 5 accounts concurrently (Twitter API limit, workaround possible if userbase needed it).
