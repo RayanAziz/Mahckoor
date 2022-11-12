@@ -36,7 +36,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 4. Support for matching against the blacklist regardless of character case to reduce list size.
 5. Utilize machine/deep learning to detect anamoulous and malicious tweets.
 6. Support for analyzing tweet replies to phishing.
-7. Alert if sensitive media as per Twitter judgement is tweeted, and OCR text in it.
+7. Alert if sensitive media <sup>as per Twitter judgement</sup> is tweeted, and OCR text in it.
 8. Support for more than 5 accounts with 1 Twitter bearer token workaround.
 9. Support for more TI & OSINT platforms <sup>(urlscan integration with nice features is upcoming).</sup>
 ## Requirements
