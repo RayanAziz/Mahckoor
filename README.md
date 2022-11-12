@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/media/logo-dark.png" height="240">
-  <source media="(prefers-color-scheme: light)" srcset="/media/logo-white.png" height="240">
+  <source media="(prefers-color-scheme: dark)" srcset="/media/logo-dark.png" width="342" height="240"/>
+  <source media="(prefers-color-scheme: light)" srcset="/media/logo-white.png" width="373" height="240"/>
   <img alt="Logo" src="/media/mahckoor-white.png">
 </picture>  
 
