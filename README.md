@@ -2,7 +2,7 @@
 Twitter account hijacking detection and alerting tool.
 ## Overview
 ### Description
-Mahckoor monitors changes in supplied Twitter accounts and analyzes their tweets. It alerts upon detecting changes on the profile or when suspicious tweets are tweeted. Alerts are sent via email & remote logging to SIEM <sup>(so far).</sup>
+**Mahckoor** monitors changes in supplied Twitter accounts and analyzes their tweets. It alerts upon detecting changes on the profile or when suspicious tweets are tweeted. Alerts are sent via email & remote logging to SIEM <sup>(so far).</sup>
 ### Use Case
 Automatic monitoring for organaization Twitter accounts to expediate incident response and to fulfill regulation requirements.
 ## Features
@@ -34,7 +34,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 8. Support for more than 5 accounts with 1 Twitter bearer token workaround.
 9. Support for more TI & OSINT platforms <sup>(urlscan integration with nice features is upcoming).</sup>
 ## Requirements
-1. Python 3.10 or newer. If you're hit with a syntax error on match-case statement, this's why.
+1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statement, this's why.
 2. Python packages:
    - colorama==0.4.6
    - requests==2.28.1
@@ -58,6 +58,6 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
    python mahckoor.py
    ```
 ## Contact
-Please reach out to me about Mahckoor at 0xMahckoor\[at]gmail\[dot]com
+Please reach out to me about **Mahckoor** at *0xMahckoor\[at]gmail\[dot]com*.
 ### Disclaimer
 Logo asset owned by [rexcanor](https://www.vecteezy.com/members/rexcanor).
