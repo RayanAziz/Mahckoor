@@ -25,7 +25,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 3. Stream real-time tweets from monitored accounts and analyze them.
    - Support for detecing custom blacklisted words.
    - Support for sending tweeted links to OSINT for analysis <sup>only VT so far.</sup>
-6. Intelligently set Twitter API query frequency to avoid hitting API rate limits.
+6. ِAuto setting the frequency for Twitter API queries based on the number of monitored accounts to avoid hitting API rate limits.
 7. Maximum detection delay: 12 seconds.
 8. Sending alerts via email & remote logging to SIEM on UDP in CEF.
 9. Easy to configure and deploy
