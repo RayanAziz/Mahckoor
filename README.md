@@ -40,7 +40,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 8. Support for more than 5 accounts with 1 Twitter bearer token workaround.
 9. Support for more TI & OSINT platforms <sup>urlscan integration with nice features is upcoming.</sup>
 ## Requirements
-1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statement, this's why.
+1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statements, this's why.
 2. Python packages:
    - colorama==0.4.6
    - requests==2.28.1
