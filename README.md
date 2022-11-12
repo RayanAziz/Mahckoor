@@ -66,4 +66,4 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 ## Contact
 Please reach out to me directly about suggestions for **Mahckoor** at *0xMahckoor\[at]gmail\[dot]com*.
 ### Disclaimer
-Logo asset owned by [rexcanor](https://www.vecteezy.com/members/rexcanor).
+Logo asset made by [rexcanor](https://www.vecteezy.com/members/rexcanor).
