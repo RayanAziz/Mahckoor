@@ -1,6 +1,6 @@
 # Mahckoor
 Twitter account hijacking detection and alerting tool.
-![Logo](https://github.com/RayanAziz/Mahckoor/blob/1ca924add3a7f3ba2a352b7e16406eed20fb768f/media/mahckoor.png)
+![Logo](/media/mahckoor.png)
 
 ## Overview
 ### Description
