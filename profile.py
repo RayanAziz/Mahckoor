@@ -63,16 +63,16 @@ class Profile():
                     self.bio = live_user.data.description
                     
                 if (live_user.data.location != self.location):
-                    self.changes.append({"Location Change": self.location + "," + live_user.data.location})
-                    print(ALERT + time_now() + "Account {} location changed from {} to {}".format(green("@" + self.username), green(self.location), red(live_user.data.location)))
+                    self.changes.append({"Location Change": str(self.location) + "," + str(live_user.data.location)})
+                    print(ALERT + time_now() + "Account {} location changed from {} to {}".format(green("@" + self.username), green(str(self.location)), red(str(live_user.data.location))))
                     self.location = live_user.data.location
                     
                 if (live_user.data.url != self.url):
                     expanded_live_url = get_exapnded_url(live_user.data.url)
                     expanded_stored_url = get_exapnded_url(self.url)
                     if (expanded_live_url != expanded_stored_url):
-                        self.changes.append({"URL Change": expanded_stored_url + "," + expanded_live_url})
-                        print(ALERT + time_now() + "Account {} URL changed from {} to {}".format(green("@" + self.username), blue(expanded_stored_url), blue(expanded_live_url)))
+                        self.changes.append({"URL Change": str(expanded_stored_url) + "," + str(expanded_live_url)})
+                        print(ALERT + time_now() + "Account {} URL changed from {} to {}".format(green("@" + self.username), blue(str(expanded_stored_url)), blue(str(expanded_live_url))))
                         self.url = live_user.data.url
                     
                 if (live_user.data.profile_image_url != self.profile_image):
