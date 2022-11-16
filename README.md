@@ -41,17 +41,14 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 9. Support for more TI & OSINT platforms <sup>urlscan integration with nice features is upcoming.</sup>
 ## Requirements
 1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statements, this's why.
-2. Python packages:
-   - colorama==0.4.6
-   - requests==2.28.1
-   - tweepy==4.12.1
-   - urlextract==1.7.1
-2. API keys:
+2. requirements.txt:
+  ```pip install -r requirements.txt```
+3. API keys:
    - Twitter bearer token <sup>any access is fine</sup>
       - [How to get](https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2)
    - VirusTotal API <sup>free is fine</sup>
       - [How to get](https://support.virustotal.com/hc/en-us/articles/115002088769-Please-give-me-an-API-key)
-3. Filling out the *config.ini* file
+4. Filling out the *config.ini* file
    - Required configs:
       - [twitter accounts]
       - [twitter api]
