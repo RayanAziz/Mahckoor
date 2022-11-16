@@ -42,7 +42,9 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 ## Requirements
 1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statements, this's why.
 2. requirements.txt:
-  ```pip install -r requirements.txt```
+  ```
+  pip install -r requirements.txt
+  ```
 3. API keys:
    - Twitter bearer token <sup>any access is fine</sup>
       - [How to get](https://developer.twitter.com/en/docs/tutorials/step-by-step-guide-to-making-your-first-request-to-the-twitter-api-v2)
