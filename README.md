@@ -41,7 +41,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
 9. Support for more TI & OSINT platforms <sup>urlscan integration with nice features is upcoming.</sup>
 ## Requirements
 1. <ins>Python 3.10 or newer</ins>. If you're hit with a syntax error on match-case statements, this's why.
-2. requirements.txt:
+2. Install required packages:
   ```
   pip install -r requirements.txt
   ```
