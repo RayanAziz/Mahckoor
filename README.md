@@ -14,7 +14,7 @@ Twitter account hijacking detection and alerting tool.
 Automatic monitoring for organaization Twitter accounts to expediate incident response and to fulfill regulation requirements.
 ## Features
 ### Current features:
-1. Support for monitroing up to 5 accounts concurrently <sup>Twitter API limit, workaround possible if the userbase needed it.</sup>
+1. Support for monitroing up to 5 accounts concurrently with multithreading <sup>Twitter API limit, workaround possible if the userbase needed it.</sup>
 2. Periodically monitor changes in profile properties:
    - Username
    - Display Name
