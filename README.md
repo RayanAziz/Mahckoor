@@ -9,7 +9,7 @@
 Twitter account hijacking detection and alerting tool.
 ## Overview
 ### Description
-**Mahckoor** monitors changes in supplied Twitter accounts and analyzes their tweets. It alerts upon detecting changes on the profile or when suspicious tweets are tweeted. Alerts are sent via email & remote logging to SIEM <sup>so far.</sup>
+**Mahckoor** monitors changes in supplied Twitter accounts and analyzes their tweets. It has two monitors running together: Profile Monitor and Tweets Monitor. It alerts upon detecting changes on the profile or when suspicious tweets are tweeted. Alerts are sent via email & remote logging to SIEM <sup>so far.</sup>
 ### Use Case
 Automatic monitoring for organaization Twitter accounts to expediate incident response and to fulfill regulation requirements.
 ## Features
@@ -27,7 +27,7 @@ Automatic monitoring for organaization Twitter accounts to expediate incident re
    - Support for detecing custom blacklisted words.
    - Support for sending tweeted links to OSINT for analysis <sup>only VT so far.</sup>
 6. ِAuto setting the frequency for Twitter API queries based on the number of monitored accounts to avoid hitting API rate limits.
-7. Maximum detection delay: 12 seconds.
+7. Maximum detection delay: 14 seconds for profile changes <sup>for 5 accounts</sup> and 10 seconds for suspicious tweets <sup>API limit</sup>.
 8. Sending alerts via email & remote logging to SIEM on UDP in CEF.
 9. Easy to configure and deploy
 ### Ideas in mind:
